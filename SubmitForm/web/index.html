@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Submit Form - Information</div>
+
+        <form action="submit" method="POST" >
+            <table>
+                <tr>
+                    <td><label for="fullname">Enter fullname:</label></td>
+                    <td><input type="text" name="fullname" id="fullname" /></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Enter your password:</label></td>
+                    <td><input type="password" name="password" id="password" /></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Enter your age:</label></td>
+                    <td><input type="number" name="age" id="age" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Enter your email:</label></td>
+                    <td><input type="email" name="email" id="email" /></td>
+                </tr>
+                <tr>
+                    <td><label>Enter your gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male" />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female" />
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Enter your hobbies:</label></td>
+                    <td>
+                        <input type="checkbox" name="hobby" id="hobby1" value="fishing" />
+                        <label for="hobby1">fishing</label>
+
+                        <input type="checkbox" name="hobby" id="hobby2" value="riding" />
+                        <label for="hobby2">riding</label>
+
+                        <input type="checkbox" name="hobby" id="hobby3" value="swimming" />
+                        <label for="hobby3">swimming</label>
+
+                        <input type="checkbox" name="hobby" id="hobby4" value="surfing" />
+                        <label for="hobby4">surfing</label>
+
+                        <input type="checkbox" name="hobby" id="hobby5" value="drawing" />
+                        <label for="hobby5">drawing</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="skills">Select your skill:</label></td>
+                    <td>
+                        <select name="skills" id="skills">
+                            <option value="communication">communication</option>
+                            <option value="teamwork">teamwork</option>
+                            <option value="leadership">leadership</option>
+                            <option value="problem">problem-solving</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="submit" /></td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
